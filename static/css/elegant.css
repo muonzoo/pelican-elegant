@@ -17,8 +17,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Baskerville, Garamond, Georgia, 'DejaVu Serif', 'Times New Roman', Times, Serif;
-    font-weight: normal;
+    font-family: 'Segoe UI','Helvetica Neue',Baskerville, Garamond, Georgia, 'DejaVu Serif', 'Times New Roman', Times, Serif;
+    font-weight: 200;
 }
 h1 small, h1 a, h1 a:hover,
 h2 small, h2 a, h2 a:hover,
@@ -38,16 +38,17 @@ hr {
 
 /* site title */
 .site-name {
-    font-family: 'Monaco', 'Inconsolata', 'Andale Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', 'Courier New', Courier, Monospace;
+    font-family: 'Anonymous Pro', 'Monaco', 'Inconsolata', 'Andale Mono', 'Lucida Console', 'Bitstream Vera Sans Mono', 'Courier New', Courier, Monospace;
 }
 /* Top navigation menu */
 .top-menu li a {
-    font-weight: bold;
+    font-weight: 300;
 }
 /* Footer */
 #footer {
     border-top: 1px solid  rgba(0, 0, 0, .2);
-    font: .8em Calibri, Tahoma, Arial, Sans-Serif;
+    font: 'Segoe UI','Helvetica-Neue', .8em Calibri, Tahoma, Arial, Sans-Serif;
+    font-weight: 200;
     margin: 15px 0 0 0;
     padding: 0;
 }
@@ -87,7 +88,7 @@ ul.footer-content li {
     text-shadow: 0 0;
 }
 .disqus-comment-count {
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+    font-family: 'Segoe UI', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
     font-size: .9em;
 }
 #disqus_thread {
@@ -163,10 +164,10 @@ div.highlight {
     line-height: 28px;
 }
 .tag-title {
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+    font-family: 'Segoe UI', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
 }
 .articles-in-tag li {
-    font: 1.1em/1.6em 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+    font: 1.1em/1.6em 'Segoe UI',1.1em/1.6em 'Helvetica Neue',1.1em/1.6em  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
 }
 /* Article */
 article p:not(#list-of-translations):not(#post-share-links) a,
@@ -184,7 +185,8 @@ article div.article-content ul:not(.articles-timeline) a:hover {
     text-shadow: none;
 }
 .article-content, div.recent-posts p {
-    font: 1.2em/1.6em 'PT Serif', Georgia, 'Times New Roman', Times, Serif;
+    font: 'Segoe UI','Helvetica Neue',1.2em/1.6em 'PT Serif', Georgia, 'Times New Roman', Times, Serif;
+    font-weight: light;
     text-align: justify;
 }
 .article-content {
@@ -215,7 +217,7 @@ article div.article-content ul:not(.articles-timeline) a:hover {
     position:absolute;
 }
 .article-content blockquote {
-    font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+    font-family: 'Segoe UI','Helvetica Neue', Helvetica, Arial, Sans-Serif;
     font-size: inherit;
     font-variant: normal;
     line-height: 1.7em;
@@ -396,7 +398,7 @@ a.category-link:hover {
     text-decoration: none;
 }
 a.list-of-categories {
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+    font-family: 'Segoe UI', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
     font-size: 1.1em;
 }
 a.list-of-categories:hover {
@@ -411,7 +413,7 @@ ul.list-all-articles {
 }
 ul.list-all-articles li {
     border-bottom: 1px dotted #000;
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+    font-family: 'Segoe UI', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
     font-size: 1.1em;
     padding: .3em 0;
     overflow: auto;
@@ -448,7 +450,7 @@ div.blog-archives time, div.recent-posts time {
 }
 div.blog-archives time, div.recent-posts time, div.recent-posts section {
     color: #8F8F8F;
-    font: .9em 'PT Sans', 'Helvetica Neue', Arial, Sans-Serif;
+    font: .9em 'PT Sans', 'Segoe UI', 'Helvetica Neue', Arial, Sans-Serif;
 }
 div.recent-posts section a {
     color: inherit;
@@ -569,7 +571,7 @@ a#allposts:hover {
     border-radius: 3px;
     border: 1px solid #e1e1e8;
     color: #d14;
-    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-family: 'Anonymous Pro',Monaco, Menlo, Consolas, "Courier New", monospace;
     font-size: 12px;
     padding: 2px 4px;
     white-space: nowrap;
